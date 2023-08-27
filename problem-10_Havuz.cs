@@ -19,6 +19,11 @@ while(SON BOLME 1 SAATTE DOLDURUldu KOŞULU)
     değişkeni dinamik yapmak.
     sure = katsayi^sayac*havuzKapasite/hiz sure<=60
     sureyi toplamsureye ekle
-    sayacı bir arttır. 
+    sayaci bir arttir. 
 
-}
+}while dolumsuresi<1
+if bölümler>0 
+hiz*=katsayi
+dolumsuresi=katsayi/hiz*60
+if dolumsuresi>1
+bolumler+=1
